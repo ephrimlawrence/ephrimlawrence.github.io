@@ -1,13 +1,13 @@
 {
-  "name": "Eleventy Duo",
-  "description": "Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.",
+  "name": "Ephrim Blog",
+  "description": "A blog about adventures in my programming journey",
   "url": "https://eleventyduo.netlify.app",
   "author": {
-    "name": "Author Name",
-    "email": "author@site.com",
+    "name": "Lawrence Ephrim",
+    "email": "ephrimlawrence11@gmail.com",
     "twitterHandle": "author_handle"
   },
-  "defaultSocialImage": "/images/default-social-image.png",
+  "defaultSocialImage": "/images/me.png",
   "headerLinks": [
     {
       "text": "Blog",
@@ -22,18 +22,13 @@
   ],
   "socialLinks": [
     {
-      "text": "Instagram",
-      "url": "https://instagram.com/",
-      "external": true
-    },
-    {
       "text": "GitHub",
-      "url": "https://github.com/yinkakun/eleventy-duo",
+      "url": "https://github.com/ephrimlawrence",
       "external": true
     },
     {
-      "text": "Twitter",
-      "url": "https://twitter.com/",
+      "text": "GitLab",
+      "url": "https://gitlab.com/ephrimlawrence",
       "external": true
     }
   ],
