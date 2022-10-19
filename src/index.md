@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Ephrim's blog"
+title: "Home"
 ---
 # Hello World
 
