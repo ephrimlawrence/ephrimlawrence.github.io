@@ -1,0 +1,268 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Experienced Software Engineer with a strong background in designing, developing, and maintaining scalable applications across web, mobile, and desktop platforms. Skilled in a wide range of programming languages and frameworks, including TypeScript, Python, Dart, Java and more. Proven track record in leading backend infrastructure, building REST APIs, and managing CI/CD pipelines on AWS and Google Cloud. Adept at architecting solutions for diverse domains such as EdTech, InsureTech, and ERP systems, with hands-on experience in cloud infrastructure, DevOps, and data management.
+    Passionate about leveraging technology to solve real-world problems and drive impactful change.
+
+    <div class="mt-4">
+      <a
+        href="/ephrimlawrence/lawrence-ephrim-cv.pdf"
+        download
+        class="btn btn-outline"
+      >
+        Download CV
+      </a>
+    </div>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="MPhil Computer Science"
+      subtitle="2023 to present at University of Cape Coast, Ghana"
+    />
+    <TimeLineElement
+      title="B.Sc. Information Technology"
+      subtitle="October 2017 to October 2021 at University of Cape Coast, Ghana"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Snr. Software Engineer (Remote)"
+      subtitle="From May 2023 at Amplio, USA/Ghana"
+    >
+      <ul class="list-disc pl-5 pb-4">
+        <li>
+          Maintained a desktop application for managing talking book program
+          audio contents (including content synchronization to S3, performing
+          device firmware updates, content updates and statistics collection).
+        </li>
+        <li>
+          Developed an Android app used by field agents to update talking book
+          device firmware, upload new audio content and collect statistics.
+        </li>
+        <li>
+          Developed an AI-powered web app for creating Social Behavioral Change
+          programs for marginalized communities.
+        </li>
+        <li>
+          Re-architected and redesigned a web app for managing talking book
+          programs. This included functionalities for monitoring device usage,
+          visualizing statistics through Tableau dashboards and program
+          specification management.
+        </li>
+        <li>
+          Developed a web app for creating surveys and analyzing user feedback
+          (voice recordings) collected from talking book devices in the field.
+        </li>
+        <li>
+          Managed CI/CD pipelines (Github and AWS) for deployment of Amplio
+          applications.
+        </li>
+        <li>
+          Administered AWS infrastructure including EC2, S3, RDS and Lambda to
+          ensure smooth running of Amplio applications.
+        </li>
+        <li>
+          Led the re-architecting of critical Amplio software infrastructure,
+          including the Audio Content Manager, Talking Book Loader, Amplio Suite
+          and statistics processing services.
+        </li>
+        <li>
+          Provided technical support for software issues encountered by field
+          agents and Amplio partners across Africa.
+        </li>
+      </ul>
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="Software Engineer (Remote)"
+      subtitle="From October 2019 to 2024 at Insurerity Digital, Ghana"
+    >
+      <ul class="list-disc pl-5 pb-4">
+        <li>
+          Lead developer for REST API services and backend infrastructure, which
+          processes over 10,000 requests and payment transactions daily.
+        </li>
+        <li>
+          Worked on the REST API for Complaint Management and Bureau Services
+          (CMAB) tickets management system.
+        </li>
+        <li>
+          Developed a USSD application for StarMicro Insurance and SanLam
+          Insurance, which allows users to buy life insurance policies and make
+          payments. Currently used by over 3000 clients.
+        </li>
+        <li>Managed CI/CD pipelines (Github and Google Cloud)</li>
+        <li>
+          Administered and maintained server infrastructure supporting critical
+          services.
+        </li>
+      </ul>
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="Teaching and Research Assistant"
+      subtitle="From October 2021 to October 2024 at University of Cape Coast, Ghana"
+    >
+      <ul class="list-disc pl-5 pb-4">
+        <li>
+          Tutor for database management system course at the Computer Science
+          department
+        </li>
+      </ul>
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="Software Engineer (Remote)"
+      subtitle="From May 2018 to December 2019 at Npontu Technologies Limited, Ghana"
+    >
+      <ul class="list-disc pl-5 pb-4">
+        <li>
+          Worked on <a
+            href="http://kedebah.npontu.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Kedabah Enterprise Resource Planning (ERP)</a
+          > system, which is used by over 50 enterprises in Ghana.
+        </li>
+        <li>
+          Developed a web dashboard for the MTN Business Manager mobile app.
+        </li>
+        <li>
+          Developed REST APIs for MTN Business Manager mobile application.
+        </li>
+      </ul>
+    </TimeLineElement>
+
+    <TimeLineElement
+      title="Software Engineer, Intern"
+      subtitle="From May 2017 to September 2017 at Kyta IT Solutions, Ghana"
+    >
+      <ul class="list-disc pl-5 pb-4">
+        <li>
+          Developed the backend system for physical identity tracking system web
+          application.
+        </li>
+      </ul>
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Publications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a
+        href="https://www.researchgate.net/profile/Lawrence-Ephrim/publication/358840389_Class_Attendance_System_using_Wi-Fi_Direct/links/63dbf32064fc8606380b4c52/Class-Attendance-System-using-Wi-Fi-Direct.pdf"
+        target="_blank"
+      >
+        Ephrim, L., Blewudzi, A. K., Umar, H., Haruna, C. R., & Asante, A.
+        (2022). Class Attendance System using Wi\-Fi Direct. International
+        Journal of Computer Applications, 183(51), 1–5.
+        https://doi.org/10.5120/ijca2022921929</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.researchgate.net/profile/Emmanuel-Effah-3/publication/383114118_Survey_The_Evolution_and_Applications_of_Turing_Machine/links/66bcc4bf8d00735592522b5d/Survey-The-Evolution-and-Applications-of-Turing-Machine.pdf"
+        target="_blank"
+      >
+        Effah, E., Aggrey, G., Oteng, F., Ephrim, L., Kyei, D. A., Darkwah, A.
+        A., Junior, A. J., & Agbodemegbe, E. K. (2024). Survey: The Evolution
+        and Applications of Turing Machine. International Journal of Computer
+        Science and Information Security (IJCSIS), Vol. 22, No. 3, June 2024.</a
+      >
+    </li>
+  </ul>
+
+  <!-- <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+  </ul> -->
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Typescript</li>
+    <li>Python</li>
+    <li>Dart</li>
+    <li>PHP</li>
+    <li>SQL</li>
+    <li>Crystal</li>
+    <li>JavaScript</li>
+    <li>Elixir</li>
+    <li>Java</li>
+    <li>Kotlin</li>
+    <li>Ruby</li>
+    <li>C/C++</li>
+    <li>Go</li>
+    <li>.NET (C#)</li>
+    <li>Laravel</li>
+    <li>Ruby on Rails</li>
+    <li>Django</li>
+    <li>ExpressJS</li>
+    <li>NodeJS</li>
+    <li>NestJS</li>
+    <li>Lucky</li>
+    <li>Vue.js</li>
+    <li>Angular</li>
+    <li>React</li>
+    <li>SolidJS</li>
+    <li>Flask</li>
+    <li>Tauri</li>
+    <li>FastAPI</li>
+    <li>Android (Java/Kotlin)</li>
+    <li>Flutter</li>
+    <li>Linux</li>
+    <li>Git</li>
+    <li>Shell</li>
+    <li>Docker</li>
+    <li>CI/CD</li>
+    <li>Nginx</li>
+    <li>Ansible</li>
+    <li>Terraform</li>
+    <li>Kubernetes</li>
+    <li>Google Cloud (Storage, Cloud Run, Cloud Build, etc.)</li>
+    <li>Amazon Web Services (Lambda, S3, ECR, etc.)</li>
+    <li>Firebase</li>
+    <li>Arduino</li>
+    <li>PostgreSQL</li>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>DynamoDB</li>
+    <li>Redis</li>
+    <li>RabbitMQ</li>
+    <li>Tableau</li>
+    <li>Paystack</li>
+    <li>Mobile Money Integrations</li>
+    <li>QuickBooks</li>
+  </ul>
+</BaseLayout>
