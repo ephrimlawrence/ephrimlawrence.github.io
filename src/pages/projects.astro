@@ -3,17 +3,44 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="Ananse"
+    desc="A domain-specific language for building USSD services, featuring a compiler written in Crystal and a Node.js/TypeScript runtime. This project aims to improve developer productivity and simplify the creation of complex USSD applications."
+    url="https://github.com/ephrimlawrence/ananse"
+    badge="FOSS"
+  />
+
+  <div class="divider my-0"></div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Web Apps</div>
+  </div>
+  <HorizontalCard
+    title="Teaching Timetable Management System"
+    desc="A system which automates the scheduling and management of teaching timetables for the University of Cape Coast, Ghana."
     url="#"
-    badge="NEW"
+  />
+
+  <div class="divider my-0"></div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Mobile Apps</div>
+  </div>
+  <HorizontalCard
+    title="Afiewura: Room Search & Rent Financing App"
+    desc="An app which makes it easier to apply for rent finance, pay rent monthly, request maintenance, or reserve amenities in Ghana."
+    url="#"
+  />
+
+  <HorizontalCard
+    title="Microsoft Office Suite Questions App"
+    desc="An android app which makes practicing Microsoft Word, Office, PowerPoint and Access quiz questions very easy, with 1800+ solved questions available offline."
+    url="#"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
@@ -24,28 +51,24 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">OSS Contributions</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="LuckyEnv"
+    desc="Added a feature to generate type-safe method definitions for env variables at compile-time"
+    url="https://github.com/luckyframework/lucky_env"
     badge="FOSS"
   />
   <div class="divider my-0"></div>
+
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Flutter Form Builder"
+    desc="Updated validation logic"
+    url="https://github.com/flutter-form-builder-ecosystem/flutter_form_builder"
+    badge="FOSS"
   />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+
+  <p class="text-sm mt-3">... and countless other heroic bug squashes, typo fixes, and README improvements that saved the universe (or at least a few developers' sanity).</p>
+
 </BaseLayout>
